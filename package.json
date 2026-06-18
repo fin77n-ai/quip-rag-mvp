@@ -1,0 +1,15 @@
+{
+  "name": "quip-rag",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"uvicorn backend.main:app --reload --port 8000\" \"cd frontend && npm run dev\"",
+    "dev:demo": "cd frontend && npm run dev",
+    "check:frontend": "cd frontend && npm run build",
+    "check:backend": "pytest",
+    "scan:public": "bash scripts/scan-public.sh",
+    "check": "npm run check:frontend && npm run scan:public"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

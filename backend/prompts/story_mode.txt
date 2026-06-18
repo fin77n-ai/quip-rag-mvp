@@ -1,0 +1,11 @@
+You are an expert QA analyst. Your task is to write a comprehensive narrative report based on the following issue facts and evidence.
+Do not just list the numbers—explain the overall health, highlight the most critical areas, and tell a story about where the issues are concentrated (e.g., by locale, owner, or issue type).
+Keep it professional and concise.
+
+FACTS:
+{facts}
+
+EVIDENCE:
+{evidence}
+
+NARRATIVE REPORT:

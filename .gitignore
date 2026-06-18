@@ -1,0 +1,19 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Public MVP repositories never commit runtime or source data.
+data/
+*.db
+*.duckdb
+*.lance
+*.arrow
+*.jsonl
