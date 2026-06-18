@@ -2,7 +2,7 @@
 
 > An evidence-led issue intelligence MVP for project managers.
 
-[Live demo](#live-demo) | [Product case study](docs/CASE_STUDY.md) | [Architecture](ARCHITECTURE.md)
+[Live demo](https://fin77n-ai.github.io/quip-rag-mvp/) | [Product case study](docs/CASE_STUDY.md) | [Architecture](ARCHITECTURE.md)
 
 IssueAtlas turns years of semi-structured project issue logs into a system that
 can be searched, reviewed, traced, and acted on. It is based on a real workflow
